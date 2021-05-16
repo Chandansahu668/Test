@@ -1,0 +1,85 @@
+git init #to initialize the git
+
+git status # to check the status
+
+git status -s # to check the status in short form
+
+git add filename1 filename2 #to add file to the git stage
+
+git commit -m "message" #to commit the change in git stage
+
+git comit -a -m "message" # to commit the new changes
+
+git rm --cached FILENAME  #remove file from git staging area but it will be present local repo
+
+git rm -r --cached DIR/   #remove file and sub dir inside the dir  from git staging area but it will be present local repo
+
+touch .gitignore  # to create git ignore from git bash
+
+vim .gitignore to add file in vi editor
+
+git log -1 #to see last commit message
+
+git --amend #to change the last commit
+
+git --amend --no-edit #
+
+git config --global core.editor "notepad"  #to change the  global config core editor
+
+git restore --staged FILENAME # to unstage the file
+
+git restore FILENAME to revert the change
+
+
+
+--------- Remote Repository/Github--------
+
+
+git remote -v  #to check the current remote dir
+
+git remote add origin the_url_end_with_git  #to add the remote repository
+
+git branch -M main to change the branch name
+
+
+
+--------Git branching -----
+git branch --help  #to open help in web browser
+
+git branch -M main  # rename the branch
+
+git branch BRANCHNAME  #to create barnch
+
+git branch #to see branch 
+
+git branch -r # to see remote branch
+
+git branch -a #to see all branch
+
+git checkout -b BRANCHNAME create and change to branch
+
+git checkout #to change the branch
+
+git branch -d BRANCHNAMETODELETE #to delete the branch from git staging
+
+git push origin --delete BRANCHNAMEFROMREMOTE #to delete the branch from git remote repo
+
+
+git fetch #to fetch all the changes from remote dir
+
+git merge #to merge the fetched changes
+
+git pull #fetch + merge
+
+
+
+
+
+
+
+
+
+git push origin -u REMOTEBANCHNAME 
+
+
+
